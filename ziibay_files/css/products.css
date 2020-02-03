@@ -1,0 +1,123 @@
+@charset "utf-8";
+.col-md-3{
+	margin-bottom:20px;
+	margin-top:20px;
+	height: 200px;
+	overflow: hidden;
+	}
+
+	
+
+@charset "UTF-8";
+/*!
+ * ImageHover.css - http://www.imagehover.io
+ * Version 1.0
+ * Author: Ciarán Walsh
+
+ * Made available under a MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+
+ */
+[class^='imghvr-'], [class*=' imghvr-'] {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+    background-color:#12b797;
+    color: #fff;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+[class^='imghvr-'] > img, [class*=' imghvr-'] > img {
+    vertical-align: top;
+    max-width: 100%;
+}
+
+[class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption {
+    background-color: #028a72;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
+
+[class^='imghvr-'] figcaption h1, [class^='imghvr-'] figcaption h2, [class^='imghvr-'] figcaption h3, [class^='imghvr-'] figcaption h4, [class^='imghvr-'] figcaption h5, [class^='imghvr-'] figcaption h6, [class*=' imghvr-'] figcaption h1, [class*=' imghvr-'] figcaption h2, [class*=' imghvr-'] figcaption h3, [class*=' imghvr-'] figcaption h4, [class*=' imghvr-'] figcaption h5, [class*=' imghvr-'] figcaption h6 {
+    color: #ffffff;
+}
+
+[class^='imghvr-'] a, [class*=' imghvr-'] a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+[class^='imghvr-'], [class*=' imghvr-'], [class^='imghvr-']:before,
+[class^='imghvr-']:after, [class*=' imghvr-']:before, [class*=' imghvr-']:after,
+[class^='imghvr-'] *, [class*=' imghvr-'] *, [class^='imghvr-'] *:before,
+[class^='imghvr-'] *:after, [class*=' imghvr-'] *:before, [class*=' imghvr-'] *:after {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+
+
+/* imghvr-zoom-out*
+   ----------------------------- */
+[class^='imghvr-zoom-out'] figcaption, [class*=' imghvr-zoom-out'] figcaption {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    opacity: 0;
+}
+
+[class^='imghvr-zoom-out']:hover figcaption, [class^='imghvr-zoom-out'].hover figcaption, [class*=' imghvr-zoom-out']:hover figcaption, [class*=' imghvr-zoom-out'].hover figcaption {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition-delay: 0.35s;
+    -moz-transition-delay: 0.35s;
+    transition-delay: 0.35s;
+}
+
+/* imghvr-zoom-out
+   ----------------------------- */
+.imghvr-zoom-out:hover > img {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0;
+}
+
+
+/*# sourceMappingURL=imagehover.css.map */
+	
+	/* CSS Document */
+
